@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-05-12 00:00:14",
+  "runner": "trtexec",
+  "precision": "fp16",
+  "engine_path": "/root/tensorRT/models/model_fp16.engine",
+  "input_name": "input",
+  "batch_size": 1,
+  "image_size": 224,
+  "warmup": 500,
+  "iterations": 100,
+  "duration_s": 10,
+  "no_data_transfers": false,
+  "log_path": "/root/tensorRT/results/raw/benchmark_fp16.log",
+  "throughput_qps": 3250.98,
+  "latency_min_ms": null,
+  "latency_max_ms": null,
+  "latency_mean_ms": null,
+  "latency_median_ms": null,
+  "latency_p99_ms": null,
+  "enqueue_mean_ms": null
+}

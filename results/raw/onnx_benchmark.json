@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-05-11 23:54:44",
+  "runner": "onnxruntime",
+  "provider": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "onnx_path": "/root/tensorRT/models/model.onnx",
+  "batch_size": 18,
+  "model_input_shape": [
+    "batch",
+    3,
+    224,
+    224
+  ],
+  "session_runs_per_iteration": 1,
+  "image_size": 224,
+  "warmup": 20,
+  "iterations": 100,
+  "latency_ms": {
+    "min": 7.116205990314484,
+    "max": 8.137378841638565,
+    "mean": 7.6392073929309845,
+    "median": 7.644083350896835,
+    "p95": 7.796251215040684,
+    "p99": 8.134918920695782
+  },
+  "throughput_qps": 2356.265391702348,
+  "output_logits": "/root/tensorRT/results/raw/onnx_logits.npy"
+}

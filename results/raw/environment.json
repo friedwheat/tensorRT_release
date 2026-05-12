@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-05-11 23:18:42",
+  "platform": "Linux-5.15.0-25-generic-x86_64-with-glibc2.35",
+  "python_version": "3.10.8",
+  "torch": {
+    "torch_version": "2.3.1+cu118",
+    "cuda_available": true,
+    "torch_cuda_version": "11.8",
+    "cudnn_version": 8700,
+    "gpu_count": 1,
+    "gpu_name": "NVIDIA GeForce RTX 4090"
+  },
+  "onnx_version": "1.16.2",
+  "onnxruntime_version": "1.18.1",
+  "tensorrt_version": "10.13.0.35",
+  "trtexec_path": "/usr/local/TensorRT-10.13.0.35/bin/trtexec",
+  "nvidia_smi": "NVIDIA GeForce RTX 4090, 570.124.04, 24564 MiB",
+  "nvcc_version": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2022 NVIDIA Corporation\nBuilt on Wed_Sep_21_10:33:58_PDT_2022\nCuda compilation tools, release 11.8, V11.8.89\nBuild cuda_11.8.r11.8/compiler.31833905_0"
+}

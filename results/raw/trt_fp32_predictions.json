@@ -1,0 +1,520 @@
+{
+  "timestamp": "2026-05-11 23:59:35",
+  "runner": "tensorrt_python",
+  "engine_path": "/root/tensorRT/models/model_fp32.engine",
+  "precision": "fp32",
+  "engine_input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "image_paths": [
+    "/root/tensorRT/assets/sample_images/000001.jpg",
+    "/root/tensorRT/assets/sample_images/000002.jpg",
+    "/root/tensorRT/assets/sample_images/000003.jpg",
+    "/root/tensorRT/assets/sample_images/000004.jpg",
+    "/root/tensorRT/assets/sample_images/000005.jpg",
+    "/root/tensorRT/assets/sample_images/000006.jpg",
+    "/root/tensorRT/assets/sample_images/000007.jpg",
+    "/root/tensorRT/assets/sample_images/000008.jpg",
+    "/root/tensorRT/assets/sample_images/000009.jpg",
+    "/root/tensorRT/assets/sample_images/000010.jpg",
+    "/root/tensorRT/assets/sample_images/000011.jpg",
+    "/root/tensorRT/assets/sample_images/000012.jpg",
+    "/root/tensorRT/assets/sample_images/000013.jpg",
+    "/root/tensorRT/assets/sample_images/000014.jpg",
+    "/root/tensorRT/assets/sample_images/000015.jpg",
+    "/root/tensorRT/assets/sample_images/000016.jpg",
+    "/root/tensorRT/assets/sample_images/000017.jpg",
+    "/root/tensorRT/assets/sample_images/000018.jpg"
+  ],
+  "predictions": [
+    [
+      {
+        "rank": 1,
+        "class_id": 459,
+        "score": 0.14868449673214068
+      },
+      {
+        "rank": 2,
+        "class_id": 903,
+        "score": 0.0738347965114349
+      },
+      {
+        "rank": 3,
+        "class_id": 584,
+        "score": 0.057986656003571065
+      },
+      {
+        "rank": 4,
+        "class_id": 445,
+        "score": 0.03387236612116927
+      },
+      {
+        "rank": 5,
+        "class_id": 638,
+        "score": 0.02781535072083424
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 683,
+        "score": 0.04534820091603819
+      },
+      {
+        "rank": 2,
+        "class_id": 400,
+        "score": 0.04100507647373032
+      },
+      {
+        "rank": 3,
+        "class_id": 699,
+        "score": 0.03572623055323874
+      },
+      {
+        "rank": 4,
+        "class_id": 834,
+        "score": 0.02603830706036653
+      },
+      {
+        "rank": 5,
+        "class_id": 558,
+        "score": 0.023013085097033377
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 678,
+        "score": 0.05652807862732323
+      },
+      {
+        "rank": 2,
+        "class_id": 903,
+        "score": 0.036202162409074964
+      },
+      {
+        "rank": 3,
+        "class_id": 487,
+        "score": 0.027023054137092332
+      },
+      {
+        "rank": 4,
+        "class_id": 906,
+        "score": 0.02641378672708538
+      },
+      {
+        "rank": 5,
+        "class_id": 699,
+        "score": 0.024432790034485397
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 903,
+        "score": 0.3248530798269466
+      },
+      {
+        "rank": 2,
+        "class_id": 568,
+        "score": 0.02545675306310009
+      },
+      {
+        "rank": 3,
+        "class_id": 585,
+        "score": 0.025119678631063787
+      },
+      {
+        "rank": 4,
+        "class_id": 629,
+        "score": 0.015587646298728669
+      },
+      {
+        "rank": 5,
+        "class_id": 584,
+        "score": 0.015007103428485834
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 678,
+        "score": 0.4907032182250694
+      },
+      {
+        "rank": 2,
+        "class_id": 589,
+        "score": 0.0346143297472637
+      },
+      {
+        "rank": 3,
+        "class_id": 551,
+        "score": 0.021900162686785997
+      },
+      {
+        "rank": 4,
+        "class_id": 459,
+        "score": 0.011716922401965323
+      },
+      {
+        "rank": 5,
+        "class_id": 903,
+        "score": 0.009159207749288389
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 903,
+        "score": 0.16127248793059526
+      },
+      {
+        "rank": 2,
+        "class_id": 823,
+        "score": 0.06839095389240499
+      },
+      {
+        "rank": 3,
+        "class_id": 459,
+        "score": 0.04385908465035052
+      },
+      {
+        "rank": 4,
+        "class_id": 584,
+        "score": 0.030938650098847054
+      },
+      {
+        "rank": 5,
+        "class_id": 678,
+        "score": 0.01577849619271586
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 906,
+        "score": 0.08455156575458729
+      },
+      {
+        "rank": 2,
+        "class_id": 699,
+        "score": 0.04878897934535607
+      },
+      {
+        "rank": 3,
+        "class_id": 678,
+        "score": 0.03772666563438027
+      },
+      {
+        "rank": 4,
+        "class_id": 683,
+        "score": 0.03705641260029688
+      },
+      {
+        "rank": 5,
+        "class_id": 860,
+        "score": 0.03506542377203445
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 906,
+        "score": 0.17099264516993004
+      },
+      {
+        "rank": 2,
+        "class_id": 834,
+        "score": 0.11702885908001903
+      },
+      {
+        "rank": 3,
+        "class_id": 432,
+        "score": 0.06875711614709173
+      },
+      {
+        "rank": 4,
+        "class_id": 678,
+        "score": 0.05158630792901381
+      },
+      {
+        "rank": 5,
+        "class_id": 683,
+        "score": 0.04657339954348001
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 678,
+        "score": 0.04874277303081792
+      },
+      {
+        "rank": 2,
+        "class_id": 683,
+        "score": 0.029188696255551125
+      },
+      {
+        "rank": 3,
+        "class_id": 903,
+        "score": 0.021832019505985477
+      },
+      {
+        "rank": 4,
+        "class_id": 834,
+        "score": 0.020829790192077726
+      },
+      {
+        "rank": 5,
+        "class_id": 584,
+        "score": 0.01861201279260089
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 459,
+        "score": 0.06527387412537557
+      },
+      {
+        "rank": 2,
+        "class_id": 678,
+        "score": 0.04648215850174803
+      },
+      {
+        "rank": 3,
+        "class_id": 683,
+        "score": 0.04448066381729539
+      },
+      {
+        "rank": 4,
+        "class_id": 617,
+        "score": 0.021538673915196625
+      },
+      {
+        "rank": 5,
+        "class_id": 610,
+        "score": 0.02027202703990434
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 568,
+        "score": 0.06194496458334146
+      },
+      {
+        "rank": 2,
+        "class_id": 459,
+        "score": 0.05390347167772282
+      },
+      {
+        "rank": 3,
+        "class_id": 683,
+        "score": 0.041510079750695365
+      },
+      {
+        "rank": 4,
+        "class_id": 903,
+        "score": 0.02730263837814047
+      },
+      {
+        "rank": 5,
+        "class_id": 501,
+        "score": 0.02220873482745744
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 906,
+        "score": 0.2034811254208105
+      },
+      {
+        "rank": 2,
+        "class_id": 683,
+        "score": 0.07361748163588953
+      },
+      {
+        "rank": 3,
+        "class_id": 834,
+        "score": 0.06610605677548045
+      },
+      {
+        "rank": 4,
+        "class_id": 699,
+        "score": 0.038425681372653155
+      },
+      {
+        "rank": 5,
+        "class_id": 617,
+        "score": 0.03340141829350002
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 683,
+        "score": 0.18276760999741795
+      },
+      {
+        "rank": 2,
+        "class_id": 432,
+        "score": 0.047594439614329784
+      },
+      {
+        "rank": 3,
+        "class_id": 906,
+        "score": 0.02333234448754579
+      },
+      {
+        "rank": 4,
+        "class_id": 699,
+        "score": 0.018309318261072866
+      },
+      {
+        "rank": 5,
+        "class_id": 834,
+        "score": 0.01715110243271895
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 834,
+        "score": 0.04342447972943407
+      },
+      {
+        "rank": 2,
+        "class_id": 683,
+        "score": 0.03498267784217412
+      },
+      {
+        "rank": 3,
+        "class_id": 678,
+        "score": 0.028824635795981712
+      },
+      {
+        "rank": 4,
+        "class_id": 906,
+        "score": 0.020460883251926045
+      },
+      {
+        "rank": 5,
+        "class_id": 459,
+        "score": 0.01976531706000434
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 906,
+        "score": 0.22486689510726274
+      },
+      {
+        "rank": 2,
+        "class_id": 617,
+        "score": 0.08541258505435372
+      },
+      {
+        "rank": 3,
+        "class_id": 834,
+        "score": 0.07562042448522101
+      },
+      {
+        "rank": 4,
+        "class_id": 862,
+        "score": 0.038141064919004854
+      },
+      {
+        "rank": 5,
+        "class_id": 683,
+        "score": 0.030927397300626193
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 906,
+        "score": 0.14481923538926825
+      },
+      {
+        "rank": 2,
+        "class_id": 678,
+        "score": 0.05131600131670925
+      },
+      {
+        "rank": 3,
+        "class_id": 683,
+        "score": 0.04803961583111803
+      },
+      {
+        "rank": 4,
+        "class_id": 834,
+        "score": 0.03719625596672779
+      },
+      {
+        "rank": 5,
+        "class_id": 432,
+        "score": 0.027263744015361805
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 823,
+        "score": 0.1219375584219629
+      },
+      {
+        "rank": 2,
+        "class_id": 617,
+        "score": 0.0737912255433525
+      },
+      {
+        "rank": 3,
+        "class_id": 678,
+        "score": 0.0292008361803586
+      },
+      {
+        "rank": 4,
+        "class_id": 432,
+        "score": 0.0268030878409258
+      },
+      {
+        "rank": 5,
+        "class_id": 906,
+        "score": 0.01947480456785871
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 568,
+        "score": 0.05490403135752202
+      },
+      {
+        "rank": 2,
+        "class_id": 903,
+        "score": 0.038870850197432964
+      },
+      {
+        "rank": 3,
+        "class_id": 490,
+        "score": 0.03281478616196316
+      },
+      {
+        "rank": 4,
+        "class_id": 678,
+        "score": 0.027074045921248627
+      },
+      {
+        "rank": 5,
+        "class_id": 824,
+        "score": 0.026297200788580544
+      }
+    ]
+  ]
+}

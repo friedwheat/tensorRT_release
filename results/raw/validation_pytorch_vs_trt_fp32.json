@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-05-11 23:59:52",
+  "name": "pytorch_vs_trt_fp32",
+  "baseline": "/root/tensorRT/results/raw/pytorch_logits.npy",
+  "candidate": "/root/tensorRT/results/raw/trt_fp32_logits.npy",
+  "shape": [
+    18,
+    1000
+  ],
+  "max_abs_diff": 0.019327878952026367,
+  "mean_abs_diff": 0.0018910857615992427,
+  "top1_agreement": 1.0,
+  "top5_overlap": 1.0,
+  "mean_cosine_similarity": 0.9999949634075165
+}

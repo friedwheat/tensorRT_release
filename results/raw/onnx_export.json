@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-05-11 23:49:18",
+  "model_name": "resnet50",
+  "onnx_path": "/root/tensorRT/models/model.onnx",
+  "input_name": "input",
+  "output_name": "logits",
+  "input_shape": [
+    "dynamic",
+    3,
+    224,
+    224
+  ],
+  "image_size": 224,
+  "batch_size": 1,
+  "opset": 17,
+  "dynamic_batch": true,
+  "static_batch": false,
+  "file_size_bytes": 102146382
+}

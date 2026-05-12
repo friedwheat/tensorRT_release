@@ -1,0 +1,4 @@
+timestamp,name,max_abs_diff,mean_abs_diff,top1_agreement,top5_overlap,mean_cosine_similarity,source_file
+2026-05-11 23:59:52,pytorch_vs_onnx,0.01584947109222412,0.001616181107237935,1.0,1.0,0.9999964270326827,results/raw/validation_pytorch_vs_onnx.json
+2026-05-11 23:59:52,pytorch_vs_trt_fp16,0.036550164222717285,0.003061165800318122,1.0,1.0,0.999986555841234,results/raw/validation_pytorch_vs_trt_fp16.json
+2026-05-11 23:59:52,pytorch_vs_trt_fp32,0.019327878952026367,0.0018910857615992427,1.0,1.0,0.9999949634075165,results/raw/validation_pytorch_vs_trt_fp32.json

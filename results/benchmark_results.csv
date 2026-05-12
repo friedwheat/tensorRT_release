@@ -1,0 +1,8 @@
+timestamp,runner,model_name,provider_or_engine,precision,batch_size,image_size,warmup,iterations,latency_mean_ms,latency_p95_ms,latency_p99_ms,throughput_qps,source_file
+2026-05-11 23:54:44,onnxruntime,,"['CUDAExecutionProvider', 'CPUExecutionProvider']",,18,224,20,100,7.6392073929309845,7.796251215040684,8.134918920695782,2356.265391702348,results/raw/onnx_benchmark.json
+2026-05-11 23:49:43,onnxruntime,,"['CUDAExecutionProvider', 'CPUExecutionProvider']",,18,224,20,100,7.167009748518467,7.187838107347488,7.362310998141774,2511.5076763668253,results/raw/onnx_dynamic_test_benchmark.json
+2026-05-11 22:01:56,pytorch,resnet50,,fp32,18,224,20,100,6.786159351468086,6.880654953420162,7.071931436657915,2652.457607867101,results/raw/pytorch_benchmark.json
+2026-05-11 23:59:35,tensorrt_python,,/root/tensorRT/models/model_fp16.engine,fp16,18,224,20,100,23.22847057133913,23.276351019740105,23.44816774129868,774.9111137006853,results/raw/trt_fp16_benchmark.json
+2026-05-11 23:59:35,tensorrt_python,,/root/tensorRT/models/model_fp32.engine,fp32,18,224,20,100,22.99423798918724,23.276550136506557,23.42463247478009,782.804805641495,results/raw/trt_fp32_benchmark.json
+2026-05-12 00:00:14,trtexec,,/root/tensorRT/models/model_fp16.engine,fp16,1,224,500,100,,,,3250.98,results/raw/trtexec_benchmark_fp16.json
+2026-05-12 00:00:03,trtexec,,/root/tensorRT/models/model_fp32.engine,fp32,1,224,500,100,,,,1187.77,results/raw/trtexec_benchmark_fp32.json

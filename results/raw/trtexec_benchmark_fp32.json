@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-05-12 00:00:03",
+  "runner": "trtexec",
+  "precision": "fp32",
+  "engine_path": "/root/tensorRT/models/model_fp32.engine",
+  "input_name": "input",
+  "batch_size": 1,
+  "image_size": 224,
+  "warmup": 500,
+  "iterations": 100,
+  "duration_s": 10,
+  "no_data_transfers": false,
+  "log_path": "/root/tensorRT/results/raw/benchmark_fp32.log",
+  "throughput_qps": 1187.77,
+  "latency_min_ms": null,
+  "latency_max_ms": null,
+  "latency_mean_ms": null,
+  "latency_median_ms": null,
+  "latency_p99_ms": null,
+  "enqueue_mean_ms": null
+}

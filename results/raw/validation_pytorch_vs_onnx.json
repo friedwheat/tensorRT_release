@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-05-11 23:59:52",
+  "name": "pytorch_vs_onnx",
+  "baseline": "/root/tensorRT/results/raw/pytorch_logits.npy",
+  "candidate": "/root/tensorRT/results/raw/onnx_logits.npy",
+  "shape": [
+    18,
+    1000
+  ],
+  "max_abs_diff": 0.01584947109222412,
+  "mean_abs_diff": 0.001616181107237935,
+  "top1_agreement": 1.0,
+  "top5_overlap": 1.0,
+  "mean_cosine_similarity": 0.9999964270326827
+}

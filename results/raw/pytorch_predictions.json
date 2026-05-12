@@ -1,0 +1,605 @@
+{
+  "timestamp": "2026-05-11 22:01:56",
+  "runner": "pytorch",
+  "model_name": "resnet50",
+  "device": "cuda",
+  "precision": "fp32",
+  "image_paths": [
+    "/root/tensorRT/assets/sample_images/000001.jpg",
+    "/root/tensorRT/assets/sample_images/000002.jpg",
+    "/root/tensorRT/assets/sample_images/000003.jpg",
+    "/root/tensorRT/assets/sample_images/000004.jpg",
+    "/root/tensorRT/assets/sample_images/000005.jpg",
+    "/root/tensorRT/assets/sample_images/000006.jpg",
+    "/root/tensorRT/assets/sample_images/000007.jpg",
+    "/root/tensorRT/assets/sample_images/000008.jpg",
+    "/root/tensorRT/assets/sample_images/000009.jpg",
+    "/root/tensorRT/assets/sample_images/000010.jpg",
+    "/root/tensorRT/assets/sample_images/000011.jpg",
+    "/root/tensorRT/assets/sample_images/000012.jpg",
+    "/root/tensorRT/assets/sample_images/000013.jpg",
+    "/root/tensorRT/assets/sample_images/000014.jpg",
+    "/root/tensorRT/assets/sample_images/000015.jpg",
+    "/root/tensorRT/assets/sample_images/000016.jpg",
+    "/root/tensorRT/assets/sample_images/000017.jpg",
+    "/root/tensorRT/assets/sample_images/000018.jpg"
+  ],
+  "predictions": [
+    [
+      {
+        "rank": 1,
+        "class_id": 459,
+        "score": 0.14909957740669708,
+        "label": "brassiere"
+      },
+      {
+        "rank": 2,
+        "class_id": 903,
+        "score": 0.0734757997286037,
+        "label": "wig"
+      },
+      {
+        "rank": 3,
+        "class_id": 584,
+        "score": 0.057987442281829456,
+        "label": "hair slide"
+      },
+      {
+        "rank": 4,
+        "class_id": 445,
+        "score": 0.03389791848749553,
+        "label": "bikini"
+      },
+      {
+        "rank": 5,
+        "class_id": 638,
+        "score": 0.02780700182522867,
+        "label": "maillot"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 683,
+        "score": 0.04529390023621586,
+        "label": "oboe"
+      },
+      {
+        "rank": 2,
+        "class_id": 400,
+        "score": 0.04116690711751831,
+        "label": "academic gown"
+      },
+      {
+        "rank": 3,
+        "class_id": 699,
+        "score": 0.035549233343582794,
+        "label": "panpipe"
+      },
+      {
+        "rank": 4,
+        "class_id": 834,
+        "score": 0.026157422852914745,
+        "label": "suit"
+      },
+      {
+        "rank": 5,
+        "class_id": 558,
+        "score": 0.023004048346289642,
+        "label": "flute"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 678,
+        "score": 0.0559521682931685,
+        "label": "neck brace"
+      },
+      {
+        "rank": 2,
+        "class_id": 903,
+        "score": 0.03583020660201507,
+        "label": "wig"
+      },
+      {
+        "rank": 3,
+        "class_id": 487,
+        "score": 0.027329738951374846,
+        "label": "cellular telephone"
+      },
+      {
+        "rank": 4,
+        "class_id": 906,
+        "score": 0.026418983313104404,
+        "label": "Windsor tie"
+      },
+      {
+        "rank": 5,
+        "class_id": 699,
+        "score": 0.024795342799757085,
+        "label": "panpipe"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 903,
+        "score": 0.32387514027903225,
+        "label": "wig"
+      },
+      {
+        "rank": 2,
+        "class_id": 568,
+        "score": 0.02554498664096466,
+        "label": "fur coat"
+      },
+      {
+        "rank": 3,
+        "class_id": 585,
+        "score": 0.02523072220752696,
+        "label": "hair spray"
+      },
+      {
+        "rank": 4,
+        "class_id": 629,
+        "score": 0.015724427616407945,
+        "label": "lipstick"
+      },
+      {
+        "rank": 5,
+        "class_id": 584,
+        "score": 0.014930115419211814,
+        "label": "hair slide"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 678,
+        "score": 0.4929540934461083,
+        "label": "neck brace"
+      },
+      {
+        "rank": 2,
+        "class_id": 589,
+        "score": 0.034738519494799946,
+        "label": "hand blower"
+      },
+      {
+        "rank": 3,
+        "class_id": 551,
+        "score": 0.021781517844746086,
+        "label": "face powder"
+      },
+      {
+        "rank": 4,
+        "class_id": 459,
+        "score": 0.011771628201524175,
+        "label": "brassiere"
+      },
+      {
+        "rank": 5,
+        "class_id": 903,
+        "score": 0.009157926970552413,
+        "label": "wig"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 903,
+        "score": 0.15893412514976557,
+        "label": "wig"
+      },
+      {
+        "rank": 2,
+        "class_id": 823,
+        "score": 0.06872098671814811,
+        "label": "stethoscope"
+      },
+      {
+        "rank": 3,
+        "class_id": 459,
+        "score": 0.044136390863960595,
+        "label": "brassiere"
+      },
+      {
+        "rank": 4,
+        "class_id": 584,
+        "score": 0.030961139069188737,
+        "label": "hair slide"
+      },
+      {
+        "rank": 5,
+        "class_id": 678,
+        "score": 0.01587180883293162,
+        "label": "neck brace"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 906,
+        "score": 0.08405127190671396,
+        "label": "Windsor tie"
+      },
+      {
+        "rank": 2,
+        "class_id": 699,
+        "score": 0.0488977507109366,
+        "label": "panpipe"
+      },
+      {
+        "rank": 3,
+        "class_id": 678,
+        "score": 0.0375484029527134,
+        "label": "neck brace"
+      },
+      {
+        "rank": 4,
+        "class_id": 683,
+        "score": 0.03722819386771098,
+        "label": "oboe"
+      },
+      {
+        "rank": 5,
+        "class_id": 860,
+        "score": 0.03489278030352008,
+        "label": "tobacco shop"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 906,
+        "score": 0.17042173618379639,
+        "label": "Windsor tie"
+      },
+      {
+        "rank": 2,
+        "class_id": 834,
+        "score": 0.11754698659852143,
+        "label": "suit"
+      },
+      {
+        "rank": 3,
+        "class_id": 432,
+        "score": 0.0685303606284778,
+        "label": "bassoon"
+      },
+      {
+        "rank": 4,
+        "class_id": 678,
+        "score": 0.05183394894428116,
+        "label": "neck brace"
+      },
+      {
+        "rank": 5,
+        "class_id": 683,
+        "score": 0.046335945266966556,
+        "label": "oboe"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 678,
+        "score": 0.04843401822676574,
+        "label": "neck brace"
+      },
+      {
+        "rank": 2,
+        "class_id": 683,
+        "score": 0.029100950072652995,
+        "label": "oboe"
+      },
+      {
+        "rank": 3,
+        "class_id": 903,
+        "score": 0.02162573714093143,
+        "label": "wig"
+      },
+      {
+        "rank": 4,
+        "class_id": 834,
+        "score": 0.02097922161273442,
+        "label": "suit"
+      },
+      {
+        "rank": 5,
+        "class_id": 584,
+        "score": 0.018529403702758823,
+        "label": "hair slide"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 459,
+        "score": 0.06553655102319801,
+        "label": "brassiere"
+      },
+      {
+        "rank": 2,
+        "class_id": 678,
+        "score": 0.04637386714710161,
+        "label": "neck brace"
+      },
+      {
+        "rank": 3,
+        "class_id": 683,
+        "score": 0.04471594065898538,
+        "label": "oboe"
+      },
+      {
+        "rank": 4,
+        "class_id": 617,
+        "score": 0.021533867684440995,
+        "label": "lab coat"
+      },
+      {
+        "rank": 5,
+        "class_id": 610,
+        "score": 0.0203596875956442,
+        "label": "jersey"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 568,
+        "score": 0.061899372119462115,
+        "label": "fur coat"
+      },
+      {
+        "rank": 2,
+        "class_id": 459,
+        "score": 0.05417614737110696,
+        "label": "brassiere"
+      },
+      {
+        "rank": 3,
+        "class_id": 683,
+        "score": 0.04150216100796229,
+        "label": "oboe"
+      },
+      {
+        "rank": 4,
+        "class_id": 903,
+        "score": 0.027294709644639342,
+        "label": "wig"
+      },
+      {
+        "rank": 5,
+        "class_id": 501,
+        "score": 0.022273272446508483,
+        "label": "cloak"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 906,
+        "score": 0.202762844025528,
+        "label": "Windsor tie"
+      },
+      {
+        "rank": 2,
+        "class_id": 683,
+        "score": 0.07401215292515761,
+        "label": "oboe"
+      },
+      {
+        "rank": 3,
+        "class_id": 834,
+        "score": 0.06639907007033034,
+        "label": "suit"
+      },
+      {
+        "rank": 4,
+        "class_id": 699,
+        "score": 0.038455412962378754,
+        "label": "panpipe"
+      },
+      {
+        "rank": 5,
+        "class_id": 617,
+        "score": 0.0334429025671657,
+        "label": "lab coat"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 683,
+        "score": 0.1827654089379785,
+        "label": "oboe"
+      },
+      {
+        "rank": 2,
+        "class_id": 432,
+        "score": 0.04761577169244955,
+        "label": "bassoon"
+      },
+      {
+        "rank": 3,
+        "class_id": 906,
+        "score": 0.023195685564762567,
+        "label": "Windsor tie"
+      },
+      {
+        "rank": 4,
+        "class_id": 699,
+        "score": 0.018184447108883738,
+        "label": "panpipe"
+      },
+      {
+        "rank": 5,
+        "class_id": 834,
+        "score": 0.017208091123438966,
+        "label": "suit"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 834,
+        "score": 0.043475849330065104,
+        "label": "suit"
+      },
+      {
+        "rank": 2,
+        "class_id": 683,
+        "score": 0.03492713057469849,
+        "label": "oboe"
+      },
+      {
+        "rank": 3,
+        "class_id": 678,
+        "score": 0.02862349902291211,
+        "label": "neck brace"
+      },
+      {
+        "rank": 4,
+        "class_id": 906,
+        "score": 0.020259848266261836,
+        "label": "Windsor tie"
+      },
+      {
+        "rank": 5,
+        "class_id": 459,
+        "score": 0.019783004921757705,
+        "label": "brassiere"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 906,
+        "score": 0.22355726464901465,
+        "label": "Windsor tie"
+      },
+      {
+        "rank": 2,
+        "class_id": 617,
+        "score": 0.08531116884325057,
+        "label": "lab coat"
+      },
+      {
+        "rank": 3,
+        "class_id": 834,
+        "score": 0.07591362263278978,
+        "label": "suit"
+      },
+      {
+        "rank": 4,
+        "class_id": 862,
+        "score": 0.038617856140536706,
+        "label": "torch"
+      },
+      {
+        "rank": 5,
+        "class_id": 683,
+        "score": 0.03091616818909536,
+        "label": "oboe"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 906,
+        "score": 0.14369398538292524,
+        "label": "Windsor tie"
+      },
+      {
+        "rank": 2,
+        "class_id": 678,
+        "score": 0.05147491676282965,
+        "label": "neck brace"
+      },
+      {
+        "rank": 3,
+        "class_id": 683,
+        "score": 0.04775789615084512,
+        "label": "oboe"
+      },
+      {
+        "rank": 4,
+        "class_id": 834,
+        "score": 0.037346974076864686,
+        "label": "suit"
+      },
+      {
+        "rank": 5,
+        "class_id": 432,
+        "score": 0.0270402711537345,
+        "label": "bassoon"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 823,
+        "score": 0.12184130145319579,
+        "label": "stethoscope"
+      },
+      {
+        "rank": 2,
+        "class_id": 617,
+        "score": 0.07379421165300368,
+        "label": "lab coat"
+      },
+      {
+        "rank": 3,
+        "class_id": 678,
+        "score": 0.029065639431959996,
+        "label": "neck brace"
+      },
+      {
+        "rank": 4,
+        "class_id": 432,
+        "score": 0.026754978009872164,
+        "label": "bassoon"
+      },
+      {
+        "rank": 5,
+        "class_id": 906,
+        "score": 0.01938620973298204,
+        "label": "Windsor tie"
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "class_id": 568,
+        "score": 0.05546446372892746,
+        "label": "fur coat"
+      },
+      {
+        "rank": 2,
+        "class_id": 903,
+        "score": 0.038633387012083915,
+        "label": "wig"
+      },
+      {
+        "rank": 3,
+        "class_id": 490,
+        "score": 0.0323871419028257,
+        "label": "chain mail"
+      },
+      {
+        "rank": 4,
+        "class_id": 678,
+        "score": 0.027018862566728065,
+        "label": "neck brace"
+      },
+      {
+        "rank": 5,
+        "class_id": 824,
+        "score": 0.026614075771490418,
+        "label": "stole"
+      }
+    ]
+  ]
+}

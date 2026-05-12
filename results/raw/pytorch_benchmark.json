@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-05-11 22:01:56",
+  "runner": "pytorch",
+  "model_name": "resnet50",
+  "device": "cuda",
+  "precision": "fp32",
+  "batch_size": 18,
+  "image_size": 224,
+  "include_h2d": false,
+  "warmup": 20,
+  "iterations": 100,
+  "latency_ms": {
+    "min": 6.702180951833725,
+    "max": 8.958783000707626,
+    "mean": 6.786159351468086,
+    "median": 6.7406632006168365,
+    "p95": 6.880654953420162,
+    "p99": 7.071931436657915
+  },
+  "throughput_qps": 2652.457607867101,
+  "output_logits": "/root/tensorRT/results/raw/pytorch_logits.npy"
+}
