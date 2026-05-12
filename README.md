@@ -411,3 +411,4 @@ trtexec --version
 这个项目默认使用 `torchvision` 预训练模型与常见图像分类预处理流程，目的是帮助更多人低门槛理解 TensorRT 的基本使用方式。
 
 如果这个仓库对你有帮助，欢迎在此基础上继续扩展。
+# tensorRT_release
