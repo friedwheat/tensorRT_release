@@ -1,38 +1,7 @@
 # TensorRT Release
-
 一个尽量易懂、可复现的 TensorRT 图像分类示例项目。
 
 这个仓库演示了如何把一个 `torchvision` 预训练模型从 `PyTorch` 导出到 `ONNX`，再构建为 `TensorRT Engine`，并完成推理、性能测试和输出一致性验证。默认模型是 `ResNet50`，默认任务是图像分类。
-
-适合这些人：
-
-- 第一次接触 `TensorRT`，想看一条完整部署链路的人
-- 想把 `PyTorch -> ONNX -> TensorRT` 跑通的人
-- 需要一个可直接改造、可继续扩展的实验模板的人
-
-## 项目目标
-
-本项目覆盖下面这条常见部署流程：
-
-```text
-PyTorch -> ONNX -> TensorRT Engine -> Inference -> Benchmark -> Validation -> Report
-```
-
-你可以把它理解成一个“最小但完整”的 TensorRT 入门项目：
-
-- 有基线：`PyTorch`
-- 有中间格式：`ONNX`
-- 有部署产物：`TensorRT Engine`
-- 有结果对比：延迟、吞吐、一致性
-- 有实验输出：`results/` 下的 CSV、JSON、Markdown
-
-## 你能从这个仓库获得什么
-
-- 一套能直接运行的 Python 脚本
-- 一个默认支持动态 batch 的 ONNX 导出流程
-- FP32 / FP16 TensorRT engine 构建与基准测试命令
-- PyTorch、ONNX Runtime、TensorRT Python Runtime 的输出一致性验证
-- 一份已经生成好的实验结果示例
 
 ## 项目结构
 
@@ -87,8 +56,6 @@ tensorRT_release/
 - TensorRT 10.x
 
 本仓库当前已经验证过的一组环境如下：
-
-- 日期：2026-05-11 到 2026-05-12
 - Python：`3.10.8`
 - GPU：`NVIDIA GeForce RTX 4090`
 - CUDA：`11.8`
@@ -96,11 +63,6 @@ tensorRT_release/
 - ONNX：`1.16.2`
 - ONNX Runtime：`1.18.1`
 - TensorRT：`10.13.0.35`
-
-如果你想少踩坑，优先建议：
-
-1. 使用 NVIDIA 官方容器
-2. 或者先安装好系统级 TensorRT 与 `trtexec`，再安装 Python 依赖
 
 ## 安装
 
@@ -131,8 +93,6 @@ trtexec --version
 ```
 
 ## 快速开始
-
-如果你只想先把主流程跑通，按照下面顺序执行即可。
 
 ### 1. 检查环境
 
